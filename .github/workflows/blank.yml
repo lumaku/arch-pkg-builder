@@ -32,5 +32,6 @@ jobs:
         name: Make PKGBUILD
         id: whatthef
         with:
+          debug: true
           target: 'pkgbuild'
           pkgname: 'python-ctc-segmentation-git'
