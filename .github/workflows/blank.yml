@@ -28,7 +28,7 @@ jobs:
 
     
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: 2m/arch-pkgbuild-builder@v1.16
+      - uses: 2m/arch-pkgbuild-builder@v1.18
         name: Make PKGBUILD
         id: whatthef
         with:
